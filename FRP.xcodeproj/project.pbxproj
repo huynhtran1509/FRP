@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A90A28FB1C97D6CB0053F79D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A90A28FA1C97D6CB0053F79D /* main.m */; };
+		A90A28FE1C97D6CB0053F79D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A90A28FD1C97D6CB0053F79D /* AppDelegate.m */; };
+		A90A29011C97D6CB0053F79D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A90A29001C97D6CB0053F79D /* ViewController.m */; };
+		A90A29041C97D6CB0053F79D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90A29021C97D6CB0053F79D /* Main.storyboard */; };
+		A90A29061C97D6CB0053F79D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90A29051C97D6CB0053F79D /* Assets.xcassets */; };
+		A90A29091C97D6CB0053F79D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90A29071C97D6CB0053F79D /* LaunchScreen.storyboard */; };
+		A90A29141C97D6CB0053F79D /* FRPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A90A29131C97D6CB0053F79D /* FRPTests.m */; };
+		A90A291F1C97D6CC0053F79D /* FRPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A90A291E1C97D6CC0053F79D /* FRPUITests.m */; };
+		A90A29431C97E2ED0053F79D /* FunctionalProgrammingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A90A293B1C97E2ED0053F79D /* FunctionalProgrammingViewController.m */; };
+		A90A29441C97E2ED0053F79D /* FunctionalProgrammingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90A293C1C97E2ED0053F79D /* FunctionalProgrammingViewController.xib */; };
+		A90A29451C97E2ED0053F79D /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = A90A293F1C97E2ED0053F79D /* Cat.m */; };
+		A90A29461C97E2ED0053F79D /* ReactiveProgrammingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A90A29411C97E2ED0053F79D /* ReactiveProgrammingViewController.m */; };
+		A90A29471C97E2ED0053F79D /* ReactiveProgrammingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90A29421C97E2ED0053F79D /* ReactiveProgrammingViewController.xib */; };
+		A90A294A1C97E3390053F79D /* XTKVONotifying_Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = A90A29491C97E3390053F79D /* XTKVONotifying_Cat.m */; };
+		A90A29501C97E3970053F79D /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = A90A294F1C97E3970053F79D /* NSObject+KVO.m */; };
+		A90A29531C980D4B0053F79D /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = A90A29521C980D4B0053F79D /* Calculator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A90A29101C97D6CB0053F79D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90A28EE1C97D6CB0053F79D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A90A28F51C97D6CB0053F79D;
+			remoteInfo = FRP;
+		};
+		A90A291B1C97D6CC0053F79D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90A28EE1C97D6CB0053F79D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A90A28F51C97D6CB0053F79D;
+			remoteInfo = FRP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A90A28F61C97D6CB0053F79D /* FRP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90A28FA1C97D6CB0053F79D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A90A28FC1C97D6CB0053F79D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A90A28FD1C97D6CB0053F79D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A90A28FF1C97D6CB0053F79D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A90A29001C97D6CB0053F79D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A90A29031C97D6CB0053F79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A90A29051C97D6CB0053F79D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A90A29081C97D6CB0053F79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A90A290A1C97D6CB0053F79D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A90A290F1C97D6CB0053F79D /* FRPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90A29131C97D6CB0053F79D /* FRPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRPTests.m; sourceTree = "<group>"; };
+		A90A29151C97D6CB0053F79D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A90A291A1C97D6CC0053F79D /* FRPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90A291E1C97D6CC0053F79D /* FRPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRPUITests.m; sourceTree = "<group>"; };
+		A90A29201C97D6CC0053F79D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A90A293A1C97E2ED0053F79D /* FunctionalProgrammingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionalProgrammingViewController.h; sourceTree = "<group>"; };
+		A90A293B1C97E2ED0053F79D /* FunctionalProgrammingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionalProgrammingViewController.m; sourceTree = "<group>"; };
+		A90A293C1C97E2ED0053F79D /* FunctionalProgrammingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FunctionalProgrammingViewController.xib; sourceTree = "<group>"; };
+		A90A293E1C97E2ED0053F79D /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		A90A293F1C97E2ED0053F79D /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		A90A29401C97E2ED0053F79D /* ReactiveProgrammingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveProgrammingViewController.h; sourceTree = "<group>"; };
+		A90A29411C97E2ED0053F79D /* ReactiveProgrammingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveProgrammingViewController.m; sourceTree = "<group>"; };
+		A90A29421C97E2ED0053F79D /* ReactiveProgrammingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReactiveProgrammingViewController.xib; sourceTree = "<group>"; };
+		A90A29481C97E3390053F79D /* XTKVONotifying_Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTKVONotifying_Cat.h; sourceTree = "<group>"; };
+		A90A29491C97E3390053F79D /* XTKVONotifying_Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTKVONotifying_Cat.m; sourceTree = "<group>"; };
+		A90A294E1C97E3970053F79D /* NSObject+KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
+		A90A294F1C97E3970053F79D /* NSObject+KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
+		A90A29511C980D4B0053F79D /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		A90A29521C980D4B0053F79D /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A90A28F31C97D6CB0053F79D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90A290C1C97D6CB0053F79D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90A29171C97D6CC0053F79D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A90A28ED1C97D6CB0053F79D = {
+			isa = PBXGroup;
+			children = (
+				A90A28F81C97D6CB0053F79D /* FRP */,
+				A90A29121C97D6CB0053F79D /* FRPTests */,
+				A90A291D1C97D6CC0053F79D /* FRPUITests */,
+				A90A28F71C97D6CB0053F79D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A90A28F71C97D6CB0053F79D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A90A28F61C97D6CB0053F79D /* FRP.app */,
+				A90A290F1C97D6CB0053F79D /* FRPTests.xctest */,
+				A90A291A1C97D6CC0053F79D /* FRPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A90A28F81C97D6CB0053F79D /* FRP */ = {
+			isa = PBXGroup;
+			children = (
+				A90A29391C97E2ED0053F79D /* FunctionalProgramming */,
+				A90A293D1C97E2ED0053F79D /* ReactiveProgramming */,
+				A90A28FC1C97D6CB0053F79D /* AppDelegate.h */,
+				A90A28FD1C97D6CB0053F79D /* AppDelegate.m */,
+				A90A28FF1C97D6CB0053F79D /* ViewController.h */,
+				A90A29001C97D6CB0053F79D /* ViewController.m */,
+				A90A29021C97D6CB0053F79D /* Main.storyboard */,
+				A90A29051C97D6CB0053F79D /* Assets.xcassets */,
+				A90A29071C97D6CB0053F79D /* LaunchScreen.storyboard */,
+				A90A290A1C97D6CB0053F79D /* Info.plist */,
+				A90A28F91C97D6CB0053F79D /* Supporting Files */,
+			);
+			path = FRP;
+			sourceTree = "<group>";
+		};
+		A90A28F91C97D6CB0053F79D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A90A28FA1C97D6CB0053F79D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A90A29121C97D6CB0053F79D /* FRPTests */ = {
+			isa = PBXGroup;
+			children = (
+				A90A29131C97D6CB0053F79D /* FRPTests.m */,
+				A90A29151C97D6CB0053F79D /* Info.plist */,
+			);
+			path = FRPTests;
+			sourceTree = "<group>";
+		};
+		A90A291D1C97D6CC0053F79D /* FRPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A90A291E1C97D6CC0053F79D /* FRPUITests.m */,
+				A90A29201C97D6CC0053F79D /* Info.plist */,
+			);
+			path = FRPUITests;
+			sourceTree = "<group>";
+		};
+		A90A29391C97E2ED0053F79D /* FunctionalProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				A90A293A1C97E2ED0053F79D /* FunctionalProgrammingViewController.h */,
+				A90A293B1C97E2ED0053F79D /* FunctionalProgrammingViewController.m */,
+				A90A293C1C97E2ED0053F79D /* FunctionalProgrammingViewController.xib */,
+				A90A29511C980D4B0053F79D /* Calculator.h */,
+				A90A29521C980D4B0053F79D /* Calculator.m */,
+			);
+			path = FunctionalProgramming;
+			sourceTree = "<group>";
+		};
+		A90A293D1C97E2ED0053F79D /* ReactiveProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				A90A294E1C97E3970053F79D /* NSObject+KVO.h */,
+				A90A294F1C97E3970053F79D /* NSObject+KVO.m */,
+				A90A293E1C97E2ED0053F79D /* Cat.h */,
+				A90A293F1C97E2ED0053F79D /* Cat.m */,
+				A90A29401C97E2ED0053F79D /* ReactiveProgrammingViewController.h */,
+				A90A29411C97E2ED0053F79D /* ReactiveProgrammingViewController.m */,
+				A90A29421C97E2ED0053F79D /* ReactiveProgrammingViewController.xib */,
+				A90A29481C97E3390053F79D /* XTKVONotifying_Cat.h */,
+				A90A29491C97E3390053F79D /* XTKVONotifying_Cat.m */,
+			);
+			path = ReactiveProgramming;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A90A28F51C97D6CB0053F79D /* FRP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90A29231C97D6CC0053F79D /* Build configuration list for PBXNativeTarget "FRP" */;
+			buildPhases = (
+				A90A28F21C97D6CB0053F79D /* Sources */,
+				A90A28F31C97D6CB0053F79D /* Frameworks */,
+				A90A28F41C97D6CB0053F79D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FRP;
+			productName = FRP;
+			productReference = A90A28F61C97D6CB0053F79D /* FRP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A90A290E1C97D6CB0053F79D /* FRPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90A29261C97D6CC0053F79D /* Build configuration list for PBXNativeTarget "FRPTests" */;
+			buildPhases = (
+				A90A290B1C97D6CB0053F79D /* Sources */,
+				A90A290C1C97D6CB0053F79D /* Frameworks */,
+				A90A290D1C97D6CB0053F79D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A90A29111C97D6CB0053F79D /* PBXTargetDependency */,
+			);
+			name = FRPTests;
+			productName = FRPTests;
+			productReference = A90A290F1C97D6CB0053F79D /* FRPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A90A29191C97D6CC0053F79D /* FRPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90A29291C97D6CC0053F79D /* Build configuration list for PBXNativeTarget "FRPUITests" */;
+			buildPhases = (
+				A90A29161C97D6CC0053F79D /* Sources */,
+				A90A29171C97D6CC0053F79D /* Frameworks */,
+				A90A29181C97D6CC0053F79D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A90A291C1C97D6CC0053F79D /* PBXTargetDependency */,
+			);
+			name = FRPUITests;
+			productName = FRPUITests;
+			productReference = A90A291A1C97D6CC0053F79D /* FRPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90A28EE1C97D6CB0053F79D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "晓童 韩";
+				TargetAttributes = {
+					A90A28F51C97D6CB0053F79D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A90A290E1C97D6CB0053F79D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A90A28F51C97D6CB0053F79D;
+					};
+					A90A29191C97D6CC0053F79D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A90A28F51C97D6CB0053F79D;
+					};
+				};
+			};
+			buildConfigurationList = A90A28F11C97D6CB0053F79D /* Build configuration list for PBXProject "FRP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A90A28ED1C97D6CB0053F79D;
+			productRefGroup = A90A28F71C97D6CB0053F79D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A90A28F51C97D6CB0053F79D /* FRP */,
+				A90A290E1C97D6CB0053F79D /* FRPTests */,
+				A90A29191C97D6CC0053F79D /* FRPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A90A28F41C97D6CB0053F79D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90A29091C97D6CB0053F79D /* LaunchScreen.storyboard in Resources */,
+				A90A29441C97E2ED0053F79D /* FunctionalProgrammingViewController.xib in Resources */,
+				A90A29061C97D6CB0053F79D /* Assets.xcassets in Resources */,
+				A90A29041C97D6CB0053F79D /* Main.storyboard in Resources */,
+				A90A29471C97E2ED0053F79D /* ReactiveProgrammingViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90A290D1C97D6CB0053F79D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90A29181C97D6CC0053F79D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A90A28F21C97D6CB0053F79D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90A29011C97D6CB0053F79D /* ViewController.m in Sources */,
+				A90A29431C97E2ED0053F79D /* FunctionalProgrammingViewController.m in Sources */,
+				A90A28FE1C97D6CB0053F79D /* AppDelegate.m in Sources */,
+				A90A28FB1C97D6CB0053F79D /* main.m in Sources */,
+				A90A29501C97E3970053F79D /* NSObject+KVO.m in Sources */,
+				A90A29451C97E2ED0053F79D /* Cat.m in Sources */,
+				A90A29461C97E2ED0053F79D /* ReactiveProgrammingViewController.m in Sources */,
+				A90A294A1C97E3390053F79D /* XTKVONotifying_Cat.m in Sources */,
+				A90A29531C980D4B0053F79D /* Calculator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90A290B1C97D6CB0053F79D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90A29141C97D6CB0053F79D /* FRPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90A29161C97D6CC0053F79D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90A291F1C97D6CC0053F79D /* FRPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A90A29111C97D6CB0053F79D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A90A28F51C97D6CB0053F79D /* FRP */;
+			targetProxy = A90A29101C97D6CB0053F79D /* PBXContainerItemProxy */;
+		};
+		A90A291C1C97D6CC0053F79D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A90A28F51C97D6CB0053F79D /* FRP */;
+			targetProxy = A90A291B1C97D6CC0053F79D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A90A29021C97D6CB0053F79D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A90A29031C97D6CB0053F79D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A90A29071C97D6CB0053F79D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A90A29081C97D6CB0053F79D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A90A29211C97D6CC0053F79D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A90A29221C97D6CC0053F79D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A90A29241C97D6CC0053F79D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FRP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.up366.FRP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A90A29251C97D6CC0053F79D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FRP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.up366.FRP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A90A29271C97D6CC0053F79D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FRPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.up366.FRPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FRP.app/FRP";
+			};
+			name = Debug;
+		};
+		A90A29281C97D6CC0053F79D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FRPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.up366.FRPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FRP.app/FRP";
+			};
+			name = Release;
+		};
+		A90A292A1C97D6CC0053F79D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FRPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.up366.FRPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FRP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A90A292B1C97D6CC0053F79D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FRPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.up366.FRPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FRP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A90A28F11C97D6CB0053F79D /* Build configuration list for PBXProject "FRP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90A29211C97D6CC0053F79D /* Debug */,
+				A90A29221C97D6CC0053F79D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90A29231C97D6CC0053F79D /* Build configuration list for PBXNativeTarget "FRP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90A29241C97D6CC0053F79D /* Debug */,
+				A90A29251C97D6CC0053F79D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90A29261C97D6CC0053F79D /* Build configuration list for PBXNativeTarget "FRPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90A29271C97D6CC0053F79D /* Debug */,
+				A90A29281C97D6CC0053F79D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90A29291C97D6CC0053F79D /* Build configuration list for PBXNativeTarget "FRPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90A292A1C97D6CC0053F79D /* Debug */,
+				A90A292B1C97D6CC0053F79D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90A28EE1C97D6CB0053F79D /* Project object */;
+}
